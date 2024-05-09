@@ -1,0 +1,35 @@
+{
+  "name": "infra.market-redux-script",
+  "version": "1.0.6",
+  "description": "automation of redux pipeline",
+  "main": "index.js",
+  "bin": {
+    "model": "./model/index.js",
+    "action": "./action/index.js",
+    "reducer":"./reducer/index.js",
+    "epic":"./epic/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/preritagrawal/reduxscript.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Prerit Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preritagrawal/reduxscript/issues"
+  },
+  "homepage": "https://github.com/preritagrawal/reduxscript#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.20",
+    "maketypes": "^1.1.2",
+    "ts-morph": "^22.0.0"
+  }
+}
